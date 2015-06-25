@@ -1,0 +1,28 @@
+@import "./less/bootstrap.less";
+@import "./variables.less";
+@import "./bootswatch.less";
+
+.Cube {
+  background-color: cornsilk;
+  cursor: crosshair;
+  display: inline-block;
+  height: 2em;
+  line-height: 2em;
+  margin: 1px;
+  text-align: center;
+  width: 2em;
+}
+
+.Cube.revealed {
+  background-color: white;
+}
+
+.Cube.bomb.revealed {
+  background-color: red;
+  color: white;
+  font-weight: bold;
+}
+
+.Board {
+  margin-bottom: 20px;
+}
